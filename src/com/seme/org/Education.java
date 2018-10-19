@@ -1,6 +1,9 @@
 package com.seme.org;
 
-public class Education {
+import java.io.Serializable;
+
+public class Education implements Serializable {
+
     private String school;
     private String year;
     private String degree;

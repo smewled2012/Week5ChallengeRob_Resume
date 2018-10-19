@@ -1,8 +1,9 @@
 package com.seme.org;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Experience {
+public class Experience implements Serializable {
     private  String company;
     private String title;
     private String startDate;

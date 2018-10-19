@@ -1,6 +1,8 @@
 package com.seme.org;
 
-public class Duty {
+import java.io.Serializable;
+
+public class Duty implements Serializable {
     private String activity;
 
     public String getActivity() {

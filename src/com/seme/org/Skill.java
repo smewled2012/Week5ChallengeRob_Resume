@@ -1,6 +1,8 @@
 package com.seme.org;
 
-public class Skill {
+import java.io.Serializable;
+
+public class Skill implements Serializable {
 
     private String skill;
     private String rating;
